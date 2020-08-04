@@ -27,16 +27,31 @@ p {
   width: 100%;
   height: 150px;
   padding-top: 40px;
-
+  padding-right:10px;
   margin-right: 10px;
   margin-left: 10px;
   font-family: Ariel, Helvetica, sans-serif;
   color: black;
+
+}
+
+
+#container1 {
+ background-color: #E6E6FA; 
+}
+
+#container2 {
+ background-color: #FFDAB9; 
+}
+
+#container3 {
+ background-color: #0000CD; 
 }
 
 #t1 {
   background-color: pink;
   padding: 6px;
+  border: 1px solid black;
   width: 100px;
   height: 30px;
   text-align: center;
@@ -51,6 +66,7 @@ p {
 #t2 {
   background-color: red;
   padding: 6px;
+  border: 1px solid black;
   width: 100px;
   height: 30px;
   text-align: center;
@@ -64,13 +80,14 @@ p {
 #t3 {
   background-color: #DEB887;
   padding: 6px;
+  border: 1px solid black;
   width: 100px;
   height: 30px;
   text-align: center;
   font-weight: bold;
   position: absolute;
     top: 0px;
-  right: -10px;
+    right: -10px;
 }
 
 
